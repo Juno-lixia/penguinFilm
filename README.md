@@ -5,9 +5,9 @@
 
  ## DEMO
  
- ![Home](../assets/Iamge/Home.png)
- ![Film](../assets/Iamge/Film.png)
- ![Book](../assets/Iamge/Book.png)
+ ![Home](./assets/Iamge/Home.png)
+ ![Film](./assets/Iamge/Film.png)
+ ![Book](./assets/Iamge/Book.png)
 
 ## 进度
 
