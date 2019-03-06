@@ -1,0 +1,50 @@
+@font-face {
+  font-family: 'new-font';
+  src: url('../../../assets/Font/AGaramondPro-Italic.otf')
+}
+
+
+.centerText{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  text-align: center;
+  width: 800px;
+  height: 300px;
+}
+
+.welcomeText {
+  font-family: 'new-font';
+  font-size: 24px;
+  color: #FFF;
+  margin-bottom: 20px;
+  letter-spacing: 1px;
+  font-style: italic;
+}
+
+.title{
+  font-family: 'proxima-nova';
+  font-size: 68px;
+  color: #FFF;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+.button{
+  font-family: 'proxima-nova';
+  text-align: center;
+  line-height: 50px;
+  width: 180px;
+  height: 50px;
+  border-radius: 25px;
+  background: #36b3a8;
+  font-size: 15px;
+  font-weight: 600;
+  letter-spacing: 2px;
+  color: #FFF;
+  margin-bottom: 20px;
+  margin-left: 400px;
+  transform: translateX(-50%);
+  cursor: pointer;
+}

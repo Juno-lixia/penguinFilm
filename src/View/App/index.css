@@ -1,0 +1,55 @@
+.wrapper {
+  background: #FFF;
+  height: 100%
+}
+
+.background {
+  background-image: url('../../../assets/Image/background.jpg');
+  height: 100%;
+  filter: brightness(60%);
+  position: fixed;
+  left: 0;
+  right: 0;
+}
+
+
+.header {
+  width: 100%;
+  height: 100px;
+  background: transparent;
+  position: relative;
+  z-index: 3;
+}
+
+.logo {
+  position: absolute;
+  left: 30px;
+  top: 30px;
+  font-size: 20px;
+  color: #FFF;
+  font-family: 'proxima-nova';
+  letter-spacing: 6px;
+}
+
+.router {
+  position: absolute;
+  right: 30px;
+  top: 30px;
+  list-style: none;
+  margin: 0;
+  z-index: 3;
+}
+
+.router > li{
+  display: inline-block;
+}
+
+.router > li a {
+  font-size: 16px;
+  font-family: 'proxima-nova';
+  color: #FFF;
+  margin-left: 35px;
+  letter-spacing: 4px;
+  text-decoration: none;
+}
+
