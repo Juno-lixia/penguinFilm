@@ -8,6 +8,7 @@ import {
 import Home from '../Home';
 import Film from '../Film';
 import Book from '../Book';
+import About from '../About';
 import styles from './index.css';
 
 const navList = [{
@@ -19,6 +20,9 @@ const navList = [{
 }, {
   label: 'BOOK',
   value: '/book',
+}, {
+  label: 'ABOUT',
+  value: '/about',
 }];
 
 class App extends Component {
@@ -42,6 +46,7 @@ class App extends Component {
               <Route exact path="/" component={Home} />
               <Route exact path="/film" component={Film} />
               <Route exact path="/book" component={Book} />
+              <Route exact path="/about" component={About} />
             </Switch>
           </div>
         </Router>
