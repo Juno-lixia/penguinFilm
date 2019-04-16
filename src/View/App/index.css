@@ -6,7 +6,7 @@
 .background {
   background-image: url('../../../assets/Image/background.jpg');
   height: 100%;
-  filter: brightness(60%);
+  filter: brightness(55%);
   position: fixed;
   left: 0;
   right: 0;
@@ -45,11 +45,43 @@
 }
 
 .router > li a {
+  margin-left: 35px;
+  position: relative;
+  color: transparent;
+}
+
+.router > li a span{
   font-size: 16px;
   font-family: 'proxima-nova';
   color: #FFF;
-  margin-left: 35px;
   letter-spacing: 4px;
   text-decoration: none;
 }
 
+
+.router > li a span:after{
+  content: '';
+  width: 0;
+  height: 2px;
+  background: #FFF;
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  margin-top: 2px;
+  transition: all .2s;
+}
+
+.router > li a span:hover:after{
+  left: 0%;
+  width: 100%;
+}
+
+.border {
+  height: 2px;
+  background: #FFF;
+  position: absolute;
+  top: 100%;
+  left: 0%;
+  width: 100%;
+  margin-top: 2px;
+}

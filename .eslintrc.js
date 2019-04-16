@@ -23,7 +23,7 @@ module.exports = {
       "import/no-extraneous-dependencies": "off",
       "react/jsx-filename-extension": [1, { "extensions": [".js", ".jsx"] }],
       "react/prefer-stateless-function": [0, { "ignorePureComponents": true }],
-      "max-len": [1, 70, 2, {ignoreComments: true}],
+      "max-len": [1, 100, 2, {ignoreComments: true}],
       "react/prop-types": 0,
       "import/no-unresolved": 0,
       "semi": 2,

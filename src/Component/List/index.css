@@ -21,7 +21,6 @@
   left: 50%;
   top: 50%;
   transform: translateX(-50%) translateY(-45%);
-
 }
 
 .content{
@@ -89,11 +88,13 @@
 }
 
 .left:hover { 
-  background: #fadb14; 
+  background: #36b3a8; 
+  cursor: pointer;
 }
 
 .right:hover { 
-  background: #fadb14; 
+  background: #36b3a8; 
+  cursor: pointer;
 }
 
 .block {

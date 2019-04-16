@@ -10,6 +10,9 @@ module.exports = {
     path: path.resolve(__dirname, '../dist'),
     filename: '[name].[contenthash:12].js',
   },
+  devServer: {
+    historyApiFallback: true,
+  },
   module: {
     rules: [
       {

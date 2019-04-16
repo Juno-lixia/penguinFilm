@@ -9,7 +9,13 @@ class Home extends Component {
         <div className={styles.welcomeText}>penguin home</div>
         <div className={styles.title}>STARTS WITH YOU</div>
         {/* eslint-disable jsx-a11y/no-static-element-interactions */}
-        <div className={styles.button} onClick={() => { history.push('/film'); }} onKeyDown={() => {}}>TAKE ACTION</div>
+        <div
+          className={styles.button}
+          onClick={() => { history.push('/film'); }}
+          onKeyDown={() => {}}
+        >
+          TAKE ACTION
+        </div>
       </div>
     );
   }

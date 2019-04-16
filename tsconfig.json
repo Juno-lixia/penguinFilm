@@ -8,12 +8,8 @@
     "baseUrl": "./",
     "jsx": "react",
     "paths": {
-      "$component/*": ["./src/component/*"],
+      "$component/*": ["./src/Component/*"],
       "$views/*": ["./src/views/*"],
-      "$utils/*": ["./src/utils/*"],
-      "$config/*": ["./src/config/*"],
-      "$plugins/*": ["./src/plugins/*"],
-      "$gadget/*": ["./src/gadget/*"]
     }
   }
 }
