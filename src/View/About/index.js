@@ -1,9 +1,15 @@
 import React, { Component } from 'react';
+import { observer } from 'mobx-react';
+import store from './store';
 
+@observer
 class About extends Component {
   render() {
     return (
-      <div />
+      <div>
+        {store.test}
+      </div>
+
     );
   }
 }

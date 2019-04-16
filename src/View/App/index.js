@@ -10,20 +10,7 @@ import Film from '../Film';
 import Book from '../Book';
 import About from '../About';
 import styles from './index.css';
-
-const navList = [{
-  label: 'HOME',
-  value: '/',
-}, {
-  label: 'FILM',
-  value: '/film',
-}, {
-  label: 'BOOK',
-  value: '/book',
-}, {
-  label: 'ABOUT',
-  value: '/about',
-}];
+import navList from './config';
 
 class App extends Component {
   render() {

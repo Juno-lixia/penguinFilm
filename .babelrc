@@ -1,6 +1,9 @@
 {
-  "presets": ["env", "react"],
+  "presets": ["env", "react", "react-native-stage-0/decorator-support"],
   "plugins": [
-    ["import", { "libraryName": "antd", "libraryDirectory": "es", "style": "css" }]
+    ["import", { "libraryName": "antd", "libraryDirectory": "es", "style": "css" }],
+    "transform-decorators-legacy",
+    "transform-decorators",
+    "transform-class-properties"
   ]
 }
