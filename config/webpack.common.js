@@ -59,9 +59,14 @@ module.exports = {
     new CleanWebpackPlugin(['dist'], {
       root: path.resolve(__dirname, '../'),
     }),
-    new CopyWebpackPlugin([
-      { from: path.resolve(__dirname, '../assets'), to: path.resolve(__dirname, '../dist/assets') },
-    ]),
+    new CopyWebpackPlugin({
+      patterns: [
+        {
+          from: path.resolve(__dirname, '../assets'),
+          to: path.resolve(__dirname, '../dist/assets'),
+        },
+      ],
+    }),
     new HtmlWebpackPlugin({
       title: 'Demo',
       template: './index.html',

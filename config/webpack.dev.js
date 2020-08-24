@@ -9,7 +9,7 @@ module.exports = merge(common, {
   devServer: {
     contentBase: path.resolve(__dirname, '../dist'),
     compress: true,
-    port: 9090,
+    port: 9595,
   },
   plugins: [
     new MiniCssExtractPlugin({
