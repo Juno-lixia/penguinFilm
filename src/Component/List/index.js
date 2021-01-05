@@ -87,8 +87,8 @@ class List extends Component {
         <div className={styles.content}>
           <div className={styles.block}>
             { Array.isArray(ListArray[activeKey]) && ListArray[activeKey].length
-            && ListArray[activeKey].slice(0, 10).map((val,ind)=> (
-              <div className={styles.movieWrap} key={ind}>
+            && ListArray[activeKey].slice(0, 10).map(val => (
+              <div className={styles.movieWrap} key={val.value}>
                 <img src={`/assets/Image/${val.value}`} alt="val.value" className={styles.pic} />
                 <div>{val.title}</div>
                 <Rate disabled defaultValue={2} className={styles.rate} />
