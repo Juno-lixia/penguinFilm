@@ -10,6 +10,11 @@ module.exports = {
     path: path.resolve(__dirname, '../dist'),
     filename: '[name].[contenthash:12].js',
   },
+  resolve: {
+    alias: {
+      '@': path.resolve(__dirname, '../src'),
+    },
+  },
   devServer: {
     historyApiFallback: true,
   },
@@ -42,7 +47,7 @@ module.exports = {
         ],
       },
       {
-        test: /\.(png|svg|jpg|gif)$/,
+        test: /\.(png|svg|jpg|jpe?g|gif)$/,
         use: [
           'file-loader',
         ],
