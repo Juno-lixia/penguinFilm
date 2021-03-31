@@ -1,15 +1,13 @@
 {
   "compilerOptions": {
     "experimentalDecorators": true,
-    "allowJs": true,
     "target": "es2015",
     "module": "commonjs",
     "allowSyntheticDefaultImports": true,
     "baseUrl": "./",
     "jsx": "react",
     "paths": {
-      "$component/*": ["./src/Component/*"],
-      "$views/*": ["./src/views/*"],
+      "@/*": ["./src/*"],
     }
   }
 }

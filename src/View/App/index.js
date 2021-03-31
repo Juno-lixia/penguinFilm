@@ -29,7 +29,9 @@ class App extends Component {
       <div className={styles.wrapper}>
         <div className={styles.background} />
         <div className={styles.header}>
-          <div className={styles.logo}>PENGUIN HOME</div>
+          <a href="/">
+            <div className={styles.logo}>PENGUIN HOME</div>
+          </a>
         </div>
         <Router>
           <div>

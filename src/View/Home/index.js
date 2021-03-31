@@ -7,7 +7,7 @@ class Home extends Component {
     return (
       <div className={styles.centerText}>
         <div className={styles.welcomeText}>penguin home</div>
-        <div className={styles.title}>STARTS WITH YOU</div>
+        <div className={styles.title}>HI STRANGER</div>
         {/* eslint-disable jsx-a11y/no-static-element-interactions */}
         <div
           className={styles.button}

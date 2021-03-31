@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import List from '../../Component/List';
+import List from '@/Component/List';
 import BookMap from './config';
 
 class Book extends Component {
